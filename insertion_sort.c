@@ -1,3 +1,13 @@
+/*
+
+AD SOYAD : ZELİHA TUNCEL 
+ÖĞRENCİ NO : 2420171055
+BTK AKADEMİ SERTİFİKA BAĞLANTISI : VP1cgxeBLd
+
+*/
+
+
+
 #include <stdio.h>
 
 // kucukten buyuge insertion sort
