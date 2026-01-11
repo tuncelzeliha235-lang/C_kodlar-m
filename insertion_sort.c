@@ -41,7 +41,7 @@ void insertion_sort(int dizi[], int n) {
 }
 
 int main() {
-    int A[] = {20, 10, 50, 40, 30};
+    int A[] = {20, 3, 48, 8, 13};
     int N = sizeof(A) / sizeof(A[0]);
 
     printf("Baslangıctaki hali   : ");
