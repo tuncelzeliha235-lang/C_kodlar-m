@@ -5,9 +5,9 @@ Dizi kucukten buyuge siralanir.
 
 ### Ornek Calisma Ciktisi
 ```text
-Ilk hali   : 18  5 27  9 14
-Adim 1     :  5 18 27  9 14
-Adim 2     :  5 18 27  9 14
-Adim 3     :  5  9 18 27 14
-Adim 4     :  5  9 14 18 27
-Son hali   :  5  9 14 18 27
+Ilk hali   : 20  3 48  8 13
+Adim 1     :  3 20 48  8 13
+Adim 2     :  3 20 48  8 13
+Adim 3     :  3  8 20 48 13
+Adim 4     :  3  8 13 20 48
+Son hali   :  3  8 13 20 48
