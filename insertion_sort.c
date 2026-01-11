@@ -22,29 +22,29 @@ void yazdir(int dizi[], int n) {
 
 void insertion_sort(int dizi[], int n) {
     int i, j;
-    int key;
+    int anahtar;
 
     for (i = 1; i < n; i++) {
-        key = dizi[i];
+        anahtar = dizi[i];
         j = i - 1;
 
-        while (j >= 0 && dizi[j] > key) {
+        while (j >= 0 && dizi[j] > anahtar) {
             dizi[j + 1] = dizi[j];
             j--;
         }
 
-        dizi[j + 1] = key;
+        dizi[j + 1] = anahtar;
 
-        printf("Adim %d : ", i);
+        printf("iterasyon %d : ", i);
         yazdir(dizi, n);
     }
 }
 
 int main() {
-    int A[] = {18, 5, 27, 9, 14};
+    int A[] = {20, 10, 50, 40, 30};
     int N = sizeof(A) / sizeof(A[0]);
 
-    printf("Ilk hali   : ");
+    printf("Baslangıctaki hali   : ");
     yazdir(A, N);
 
     insertion_sort(A, N);
